@@ -1,0 +1,59 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Virtual environments
+my_env/
+venv/
+env/
+.venv/
+pyvenv.cfg
+
+# Environment variables & secrets
+.env
+.secrets
+credentials.json
+
+# Data files - EXCLUDE ALL RAW/PROCESSED DATA
+data/raw/*
+data/processed/*
+!data/processed/.gitkeep  # Preserve directory structure
+
+# Embedding files
+*.faiss
+*.bin
+*.h5
+*.pkl
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE configurations
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+*.swp
+*.swo
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Log files
+*.log
+logs/
+
+# Large files
+*.pt
+*.pth
+*.onnx
+*.zip
